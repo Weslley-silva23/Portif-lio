@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+
+    background-color: grey;
+
+}
+
+header {
+
+    word-spacing: 90px;
+    text-align: center;
+    letter-spacing: 1px;
+    display: inline-block;
+
+
+
+}
+
+.title-header {
+
+    font-weight: bolder;
+    color: darkturquoise;
+    word-spacing: 100px;
+    font-size: 55px;
+    margin-left: 30px;
+    display: inline-block;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.link-header {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    word-spacing: 90px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+    text-decoration: none;
+
+}
+
+
+
+img {
+    height: 40vw;
+    border-radius: 110px;
+    opacity: 0.7;
+    padding: 55px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: -90px;
+}
+
+h1 {
+    color: darkturquoise;
+    font-weight: 800;
+    font-size: 60px;
+    word-spacing: 10px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    width: 940px;
+    line-height: 122px;
+    height: 280px;
+    position: fixed;
+    top: 170px;
+}
+
+h2 {
+
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    word-spacing: 10px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    width: 530px;
+    line-height: 122px;
+    text-align: center;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 560px;
+    right: 520px;
+
+}
+
+
+
+
+
+
+p {
+    width: 995px;
+    font-size: 25px;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    word-spacing: 10px;
+    position: relative;
+    bottom: 220px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+button {
+
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    Width: 345px;
+    height: 75px;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: chartreuse;
+    color: black;
+    line-height: 34.13px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 80px;
+    left: 280px;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6
+}
+
+button:before {
+    content: "";
+    inset: 0;
+    position: absolute;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    transition: all .3s ease-out;
+    z-index: -1;
+}
