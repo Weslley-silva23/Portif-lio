@@ -94,8 +94,8 @@ h2 {
     text-align: center;
     margin-top: 60px;
     position: fixed;
-    bottom: 480px;
-    right: 460px;
+    bottom: 550px;
+    right: 550px;
 
 }
 
@@ -154,4 +154,110 @@ button:before {
     transform: translateX(100%);
     transition: all .3s ease-out;
     z-index: -1;
+}
+
+
+.image-menu {
+    display: none;
+}
+
+
+@media screen and (max-width:768px) {
+
+    
+
+
+header {
+    display: none;
+}
+
+.image-menu {
+
+    width: 50px;
+    height: 50px;
+    margin-left: 520px;
+    display: block;
+    border: none;
+    padding: 1px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+img {
+
+    width: 265px;
+    height: 300px;
+    border-radius: 228px;
+    opacity: 0.9;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-left: 165px;
+    padding: 1px;
+
+}
+
+
+section {
+
+    margin-top: 185px;
+    margin-left: 135px;
+}
+
+h1 {
+
+    color: #00CED1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 330px;
+    margin-left: -290px;
+
+}
+
+h2 {
+
+    color: #FFF;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 50%;
+    margin-right: -338px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+p {
+
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    width: 400px;
+    margin-top: 100%;
+    position: relative;
+    right: 40px;
+    letter-spacing: 3px;
+}
+
+
+button {
+    width: 310px;
+    height: 46px;
+    border-radius: 30px;
+    background: #7FFF00;
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+    top: -135px;
+ 
+
+}
+
 }
