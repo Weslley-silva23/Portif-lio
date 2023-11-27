@@ -177,7 +177,7 @@ button:before {
 
     .link-header{
         display: block;
-        margin-left: 400px;
+        margin-left: 420px;
         margin-top: 40px;
     }
 
@@ -207,7 +207,7 @@ button:before {
         margin-left: 165px;
         padding: 1px;
         position: absolute;
-        top: 25vh;
+        top: 18vh;
         left: 1vh;
     
 
@@ -227,8 +227,9 @@ button:before {
         font-size: 43px;
         font-weight: 600;
         text-transform: capitalize;
-        margin-top: 545px;
-        margin-left: -235px;
+        margin-top: 50vh;
+        position: absolute;
+        left: -22vw;
 
     }
 
@@ -239,25 +240,26 @@ button:before {
         font-size: 40px;
         font-weight: 600;
         text-transform: capitalize;
-        margin-bottom: 55%;
+        margin-bottom: 65%;
         margin-right: -239px;
         word-spacing: 10px;
         letter-spacing: 3px;
+        position: fixed;
     }
 
     p {
 
         color: #FFF;
-        font-size: 24px;
-        font-weight: 500;
-        text-transform: capitalize;
-        text-align: center;
-        width: 580px;
-        margin-top: 65%;
-        position: absolute;
-        letter-spacing: 5px;
-        top: 85vh;
-        left: 10vh;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    width: 450px;
+    margin-top: 65%;
+    position: absolute;
+    letter-spacing: 5px;
+    top: 73vh;
+    left: 18vh;
     
     }
 
@@ -274,8 +276,8 @@ button:before {
         text-transform: capitalize;
         cursor: pointer;
         position: absolute;
-        left: 20vh;
-        top: 150vh;
+        left: 21vh;
+        top: 160vh;
     }
 
 }
