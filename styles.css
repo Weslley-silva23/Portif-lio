@@ -172,7 +172,7 @@ button:before {
     }
 
     .title-header {
-        margin-left: 215px;
+        margin-left: 50%;
     }
 
 
@@ -196,8 +196,9 @@ button:before {
         margin-top: 25px;
         cursor: pointer;
         position: absolute;
-        left: 60vh;
         top: 1vh;
+        left: 105%;
+    
     
     }
 
@@ -212,45 +213,42 @@ button:before {
         padding: 1px;
         position: absolute;
         top: 27vh;
-        left: 7vh;
+        left: 11vw;
 
     }
 
 
     section {
 
-        margin-top: 185px;
-        margin-left: 135px;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
     }
 
     h1 {
 
         color: #00CED1;
         text-align: center;
-        font-size: 43px;
+        font-size: 40px;
         font-weight: 600;
         text-transform: capitalize;
-        margin-top: 65vh;
+        margin-top: 63vh;
         position: absolute;
-        left: -13vw;
+        left: -27vw;
+    
 
     }
 
     h2 {
 
         color: #FFF;
-        text-align: center;
-        font-size: 40px;
+        font-size: 38px;
         font-weight: 600;
-        text-transform: capitalize;
-        margin-bottom: 65%;
-        margin-right: -239px;
-        word-spacing: 10px;
         letter-spacing: 3px;
         position: absolute;
-        top: 95vh;
-        left: 18vh;
-    }
+        top: 86vh;
+        left: 11vh;}
 
     p {
 
@@ -259,12 +257,13 @@ button:before {
     font-weight: 500;
     text-transform: capitalize;
     text-align: center;
-    width: 450px;
-    margin-top: 65%;
+    width: 100%;
+    margin-top: 35%;
     position: absolute;
     letter-spacing: 5px;
     top: 95vh;
-    left: 22vh;
+    left: 19vh;
+
     }
 
 
@@ -274,14 +273,12 @@ button:before {
         border-radius: 30px;
         background: #7FFF00;
         color: #000;
-        text-align: center;
         font-size: 35px;
         font-weight: 600;
-        text-transform: capitalize;
         cursor: pointer;
         position: absolute;
-        left: 27vh;
-        top: 180vh;
+        left: 45vw;
+        top: 161%;
     }
 
 }
