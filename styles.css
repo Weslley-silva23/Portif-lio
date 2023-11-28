@@ -181,8 +181,9 @@ button:before {
 
     .link-header{
         display: block;
-        margin-left: 505px;
+        margin-left: 100%;
         margin-top: 40px;
+    
     }
 
 
@@ -278,7 +279,7 @@ button:before {
         cursor: pointer;
         position: absolute;
         left: 45vw;
-        top: 161%;
+        top: 170%;
     }
 
 }
