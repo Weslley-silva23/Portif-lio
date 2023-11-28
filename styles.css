@@ -171,13 +171,17 @@ button:before {
         display: none;
     }
 
+    .title-header {
+        margin-left: 215px;
+    }
+
 
 
 
 
     .link-header{
         display: block;
-        margin-left: 420px;
+        margin-left: 505px;
         margin-top: 40px;
     }
 
@@ -192,7 +196,7 @@ button:before {
         margin-top: 25px;
         cursor: pointer;
         position: absolute;
-        left: 50vh;
+        left: 60vh;
         top: 1vh;
     
     }
@@ -207,9 +211,8 @@ button:before {
         margin-left: 165px;
         padding: 1px;
         position: absolute;
-        top: 18vh;
-        left: 1vh;
-    
+        top: 27vh;
+        left: 7vh;
 
     }
 
@@ -227,9 +230,9 @@ button:before {
         font-size: 43px;
         font-weight: 600;
         text-transform: capitalize;
-        margin-top: 50vh;
+        margin-top: 65vh;
         position: absolute;
-        left: -22vw;
+        left: -13vw;
 
     }
 
@@ -244,7 +247,9 @@ button:before {
         margin-right: -239px;
         word-spacing: 10px;
         letter-spacing: 3px;
-        position: fixed;
+        position: absolute;
+        top: 95vh;
+        left: 18vh;
     }
 
     p {
@@ -258,9 +263,8 @@ button:before {
     margin-top: 65%;
     position: absolute;
     letter-spacing: 5px;
-    top: 73vh;
-    left: 18vh;
-    
+    top: 95vh;
+    left: 22vh;
     }
 
 
@@ -276,8 +280,8 @@ button:before {
         text-transform: capitalize;
         cursor: pointer;
         position: absolute;
-        left: 21vh;
-        top: 160vh;
+        left: 27vh;
+        top: 180vh;
     }
 
 }
