@@ -172,7 +172,7 @@ button:before {
     }
 
     .title-header {
-        margin-left: 50%;
+        margin-left: 41%;
     }
 
 
@@ -181,8 +181,9 @@ button:before {
 
     .link-header{
         display: block;
-        margin-left: 100%;
+        margin-left: 95%;
         margin-top: 40px;
+        font-size: 20px;
     
     }
 
@@ -198,7 +199,7 @@ button:before {
         cursor: pointer;
         position: absolute;
         top: 1vh;
-        left: 105%;
+        left: 400px;
     
     
     }
@@ -213,8 +214,8 @@ button:before {
         margin-left: 165px;
         padding: 1px;
         position: absolute;
-        top: 27vh;
-        left: 11vw;
+        top: 20vh;
+        left: 0;
 
     }
 
@@ -231,12 +232,13 @@ button:before {
 
         color: #00CED1;
         text-align: center;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 600;
         text-transform: capitalize;
-        margin-top: 63vh;
+        margin-top: 50vh;
         position: absolute;
-        left: -27vw;
+        margin-left: 130px;
+    
     
 
     }
@@ -248,8 +250,8 @@ button:before {
         font-weight: 600;
         letter-spacing: 3px;
         position: absolute;
-        top: 86vh;
-        left: 11vh;}
+        top: 71vh;
+        left: 70px;}
 
     p {
 
@@ -262,8 +264,8 @@ button:before {
     margin-top: 35%;
     position: absolute;
     letter-spacing: 5px;
-    top: 95vh;
-    left: 19vh;
+    top: 77vh;
+    left: 127px;
 
     }
 
@@ -278,8 +280,8 @@ button:before {
         font-weight: 600;
         cursor: pointer;
         position: absolute;
-        left: 45vw;
-        top: 170vh;
+        left: 160px;
+        top: 146vh;
     }
 
 }
