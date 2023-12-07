@@ -164,25 +164,31 @@ button:before {
 
 @media screen and (max-width:768px) {
 
-body {
+    body {
 
-    width: 100vw;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-}
-    
+    }
+
 
     header {
         display: none;
     }
 
     .title-header {
-        margin-left: 0%;
+        margin-left: 0;
         font-size: 50px;
-    
+
+    }
+
+
+    .headermenu {
+        padding: 20px;
+
     }
 
     main {
@@ -190,10 +196,12 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center
+        align-items: center;
+        margin-right: 45px;
+
     }
 
-    
+
     section {
 
         width: 100%;
@@ -202,28 +210,27 @@ body {
         align-items: center;
         margin-left: 0%;
         margin-top: 10%;
-    
-      }
 
-      .img{
+    }
+
+    .img {
         display: flex;
         width: 100%;
         height: max-content;
         justify-content: center;
-      }
-    
+    }
 
 
 
 
 
-    .link-header{
+
+    .link-header {
         display: block;
-        margin-left: 10%;
-        margin-top: 40px;
-        font-size: 20px;
-    
-    
+        margin-left: -595px;
+        margin-top: 10px;
+        font-size: 17px;
+
     }
 
 
@@ -235,14 +242,12 @@ body {
         display: block;
         border: none;
         padding: 1px;
-        margin-top: 25px;
-        cursor: pointer;
-        position: relative;
-        top: -10vh;
-        left: -185px;
-    
-    
-    
+        margin-top: -155px;
+        position: absolute;
+        margin-left: 8px;
+
+
+
     }
 
     img {
@@ -257,7 +262,7 @@ body {
         position: static;
         top: 20vh;
         left: 0;
-    
+
 
     }
 
@@ -276,9 +281,9 @@ body {
         position: static;
         margin-left: 0;
         margin-top: 50px;
-    
-    
-    
+
+
+
 
     }
 
@@ -302,21 +307,21 @@ body {
         font-size: 24px;
         font-weight: 500;
         text-transform: capitalize;
-        text-align: justify;
+        text-align: center;
         padding: 30px;
         width: 100%;
         position: static;
         letter-spacing: 5px;
         top: 0vh;
         left: 0px;
-    
+
 
     }
 
 
     button {
-        width: 380px;
-        height: 70px;
+        width: 330px;
+        height: 63px;
         border-radius: 30px;
         background: #7fff00;
         color: #000;
@@ -325,8 +330,8 @@ body {
         cursor: pointer;
         position: static;
         left: 0px;
-       top:0vh;
-    
+        top: 0vh;
+
     }
 
 }
