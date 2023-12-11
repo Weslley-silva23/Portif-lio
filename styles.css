@@ -227,8 +227,8 @@ button:before {
 
     .link-header {
         display: block;
-        margin-left: -595px;
-        margin-top: 10px;
+        margin-left: -575px;
+        margin-top: 5px;
         font-size: 17px;
 
     }
@@ -242,7 +242,7 @@ button:before {
         display: block;
         border: none;
         padding: 1px;
-        margin-top: -155px;
+        margin-top: -145px;
         position: absolute;
         margin-left: 8px;
 
