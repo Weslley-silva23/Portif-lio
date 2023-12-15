@@ -31,7 +31,10 @@ header {
     cursor: pointer;
 }
 
-.link-header {
+.link-header1,
+.link-header2,
+.link-header3,
+.link-header4 {
     font-size: 28px;
     text-transform: uppercase;
     font-weight: 700;
@@ -161,56 +164,71 @@ button:before {
 
     }
 
-    .image-menu {
+
+
+    #headermenu {
         display: flex;
-        position: absolute;
-        top: -5vh;
-        padding: 66px;
-        left: 35vw;
+        gap: 4px;
     }
+
+    .link-header1,
+    .link-header2,
+    .link-header3,
+    .link-header4 {
+
+        font-size: 8px;
+        border: 2px solid #3f3838;
+        background-color: #534b4b;
+        border-radius: 20px;
+        height: 15px;
+        font-weight: bold;
+        margin: 0px;
+        position: static;
+        margin-top: 240px;
+
+    }
+
 
     .minha-img {
         width: 270px;
         height: 280px;
         position: relative;
-        bottom: 34vh;
-        left: 0rem;
+        bottom: 32vh;
+        left: -2rem;
 
     }
 
     h1 {
-        font-size: 14px;
-        margin-left: -19%;
-        margin-top: 55px;
+        font-size: 10px;
+        margin-left: -21%;
+        margin-top: 12vh;
 
     }
 
     h2 {
-        font-size: 15px;
+        font-size: 12px;
         position: absolute;
-        left: -30vw;
-        top: 22vh;
-        text-decoration: auto;
+        left: -38vw;
+        top: 27vh;
 
 
     }
 
     p {
-        font-size: 12px;
-        width: 200px;
-        margin-top: -214px;
-        margin-left: -50px;
-
+        font-size: 10px;
+        width: 180px;
+        margin-top: -134px;
+        margin-left: -71px;
 
     }
 
     button {
-        margin-left: -301px;
-        width: 200px;
-        height: 31px;
-        font-size: 19px;
+        margin-left: -319px;
+        width: 170px;
+        height: 28px;
+        font-size: 14px;
         position: relative;
-        bottom: 15vh;
+        bottom: 14vh;
 
 
     }
