@@ -158,17 +158,53 @@ button:before {
 @media screen and (max-width:768px) {
 
     .title-header {
-        font-size: 130%;
-        margin-left: 50px;
+        font-size: 30px;
+        margin-left: 192px;
 
 
     }
 
+    .minha-img {
+        width: 370px;
+        height: 380px;
+        position: relative;
+        bottom: 30vh;
+        left: 6rem;
+        padding: 95px;
+    }
 
+    section {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    h1 {
+        font-size: 12px;
+        margin-left: 112%;
+        margin-top: 10vh;
+    }
+
+    h2 {
+        font-size: 12px;
+        position: absolute;
+        left: 3vw;
+        top: 23vh;
+        letter-spacing: 1px;
+
+    }
 
     #headermenu {
         display: flex;
-        gap: 4px;
+        gap: 12px;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 95px;
+
     }
 
     .link-header1,
@@ -179,8 +215,8 @@ button:before {
         font-size: 8px;
         border: 2px solid #3f3838;
         background-color: #534b4b;
-        border-radius: 20px;
-        height: 15px;
+        border-radius: 5px;
+        height: 16px;
         font-weight: bold;
         margin: 0px;
         position: static;
@@ -189,46 +225,22 @@ button:before {
     }
 
 
-    .minha-img {
-        width: 270px;
-        height: 280px;
-        position: relative;
-        bottom: 32vh;
-        left: -2rem;
-
-    }
-
-    h1 {
-        font-size: 10px;
-        margin-left: -21%;
-        margin-top: 12vh;
-
-    }
-
-    h2 {
-        font-size: 12px;
-        position: absolute;
-        left: -38vw;
-        top: 27vh;
-
-
-    }
-
     p {
-        font-size: 10px;
-        width: 180px;
-        margin-top: -134px;
+        font-size: 13px;
+        width: 210px;
+        margin-top: -219px;
         margin-left: -71px;
+        text-align: center;
 
     }
 
     button {
-        margin-left: -319px;
         width: 170px;
-        height: 28px;
-        font-size: 14px;
-        position: relative;
-        bottom: 14vh;
+        height: 31px;
+        font-size: 15px;
+        position: absolute;
+        bottom: 39vh;
+        left: 43vw;
 
 
     }
