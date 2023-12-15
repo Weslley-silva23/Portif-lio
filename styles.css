@@ -155,11 +155,12 @@ button:before {
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
 
     .title-header {
-        font-size: 30px;
-        margin-left: 192px;
+        font-size: 25px;
+        margin-left: 112px;
+
 
 
     }
@@ -168,8 +169,8 @@ button:before {
         width: 370px;
         height: 380px;
         position: relative;
-        bottom: 30vh;
-        left: 6rem;
+        bottom: 40vh;
+        left: 0rem;
         padding: 95px;
     }
 
@@ -177,24 +178,24 @@ button:before {
 
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         width: 100%;
 
     }
 
     h1 {
-        font-size: 12px;
-        margin-left: 112%;
-        margin-top: 10vh;
+        font-size: 14px;
+        margin-left: 97%;
+        margin-top: 12vh;
     }
 
     h2 {
         font-size: 12px;
         position: absolute;
-        left: 3vw;
-        top: 23vh;
+        left: -20vw;
+        top: 28vh;
         letter-spacing: 1px;
+
 
     }
 
@@ -203,7 +204,7 @@ button:before {
         gap: 12px;
         flex-direction: row;
         justify-content: center;
-        margin-left: 95px;
+        margin-left: -37px;
 
     }
 
@@ -229,8 +230,8 @@ button:before {
         font-size: 13px;
         width: 210px;
         margin-top: -219px;
-        margin-left: -71px;
-        text-align: center;
+        margin-left: -178px;
+        text-align: left;
 
     }
 
@@ -239,8 +240,8 @@ button:before {
         height: 31px;
         font-size: 15px;
         position: absolute;
-        bottom: 39vh;
-        left: 43vw;
+        bottom: 23vh;
+        left: 28vw;
 
 
     }
