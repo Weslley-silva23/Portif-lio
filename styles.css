@@ -17,9 +17,6 @@ header {
     text-align: center;
     letter-spacing: 1px;
     display: inline-block;
-
-
-
 }
 
 .title-header {
@@ -50,8 +47,6 @@ header {
     text-decoration: none;
 
 }
-
-
 
 img {
     height: 40vw;
@@ -96,13 +91,7 @@ h2 {
     position: fixed;
     bottom: 550px;
     right: 550px;
-
 }
-
-
-
-
-
 
 p {
     width: 995px;
@@ -111,8 +100,7 @@ p {
     font-size: 25px;
     font-weight: 500;
     word-spacing: 10px;
-    position: relative;
-    bottom: 220px;
+    margin-bottom: 150px;
     text-transform: capitalize;
     font-weight: bold;
     letter-spacing: 1px;
@@ -133,8 +121,11 @@ button {
     text-transform: capitalize;
     letter-spacing: 1px;
     position: relative;
-    bottom: 80px;
-    left: 280px;
+    left: 250px;
+    bottom: 50px;
+
+
+
 
 }
 
@@ -156,7 +147,6 @@ button:before {
     z-index: -1;
 }
 
-
 .image-menu {
     display: none;
 }
@@ -164,174 +154,67 @@ button:before {
 
 @media screen and (max-width:768px) {
 
-    body {
-
-        width: 100vw;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-
-    header {
-        display: none;
-    }
-
     .title-header {
-        margin-left: 0;
-        font-size: 50px;
+        font-size: 130%;
+        margin-left: 50px;
+
 
     }
-
-
-    .headermenu {
-        padding: 20px;
-
-    }
-
-    main {
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-right: 45px;
-
-    }
-
-
-    section {
-
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0%;
-        margin-top: 10%;
-
-    }
-
-    .img {
-        display: flex;
-        width: 100%;
-        height: max-content;
-        justify-content: center;
-    }
-
-
-
-
-
-
-    .link-header {
-        display: block;
-        margin-left: -575px;
-        margin-top: 5px;
-        font-size: 17px;
-
-    }
-
 
     .image-menu {
-
         display: flex;
-        width: 50px;
-        height: 50px;
-        display: block;
-        border: none;
-        padding: 1px;
-        margin-top: -145px;
         position: absolute;
-        margin-left: 8px;
-
-
-
+        top: -5vh;
+        padding: 66px;
+        left: 35vw;
     }
 
-    img {
-
-        display: block;
-        width: 350px;
-        height: 400px;
-        border-radius: 228px;
-        opacity: 0.9;
-        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-        padding: 1px;
-        position: static;
-        top: 20vh;
-        left: 0;
-
+    .minha-img {
+        width: 270px;
+        height: 280px;
+        position: relative;
+        bottom: 34vh;
+        left: 0rem;
 
     }
-
-
 
     h1 {
-
-        width: 100vw;
-        color: #00ced1;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 600;
-        text-transform: capitalize;
-        height: max-content;
-        line-height: 50px;
-        position: static;
-        margin-left: 0;
-        margin-top: 50px;
-
-
-
+        font-size: 14px;
+        margin-left: -19%;
+        margin-top: 55px;
 
     }
 
     h2 {
+        font-size: 15px;
+        position: absolute;
+        left: -30vw;
+        top: 22vh;
+        text-decoration: auto;
 
-        width: 100vw;
-        color: #fff;
-        font-size: 38px;
-        font-weight: 600;
-        letter-spacing: 3px;
-        position: static;
-        top: 0vh;
-        left: 0px;
-        margin-top: 50px;
-        line-height: 50px;
+
     }
 
     p {
-
-        color: #fff;
-        font-size: 24px;
-        font-weight: 500;
-        text-transform: capitalize;
-        text-align: center;
-        padding: 30px;
-        width: 100%;
-        position: static;
-        letter-spacing: 5px;
-        top: 0vh;
-        left: 0px;
+        font-size: 12px;
+        width: 200px;
+        margin-top: -214px;
+        margin-left: -50px;
 
 
     }
-
 
     button {
-        width: 330px;
-        height: 63px;
-        border-radius: 30px;
-        background: #7fff00;
-        color: #000;
-        font-size: 35px;
-        font-weight: 600;
-        cursor: pointer;
-        position: static;
-        left: 0px;
-        top: 0vh;
+        margin-left: -301px;
+        width: 200px;
+        height: 31px;
+        font-size: 19px;
+        position: relative;
+        bottom: 15vh;
+
 
     }
+
+
 
 }
