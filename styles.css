@@ -160,7 +160,7 @@ button:before {
 
     .title-header {
         font-size: 50px;
-        margin-left: 100px;
+        margin-left: 70px;
     }
 
     .minha-img {
@@ -168,7 +168,7 @@ button:before {
     height: 380px;
     position: relative;
     bottom: 34vh;
-    left: 2rem;
+    left: 0rem;
     padding: 60px;
 
     }
@@ -184,7 +184,7 @@ button:before {
 
     h1 {
         font-size: 23px;
-        margin-left: 106%;
+        margin-left: 88%;
         margin-top: 27vh;
     
     }
@@ -192,7 +192,7 @@ button:before {
     h2 {
         font-size: 24px;
         position: absolute;
-        left: -49vw;
+        left: -60vw;
         top: 50vh;
         letter-spacing: 1px;
 
@@ -206,7 +206,7 @@ button:before {
         justify-content: center;
         position: relative;
         top: 85px;
-        left: 40px;
+       
 
     }
 
@@ -233,7 +233,7 @@ button:before {
         font-size: 18px;
         width: 354px;
         margin-top: 110px;
-        margin-left: -70px;
+        margin-right: 42%;
         text-align: left;
     
 
