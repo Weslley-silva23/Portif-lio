@@ -242,6 +242,7 @@ button:before {
         position: static;
         margin-top: 240px;
         width: 78px;
+        z-index: 100;
        
 
     }
