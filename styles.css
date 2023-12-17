@@ -191,7 +191,7 @@ button:before {
         flex-direction: row-reverse;
         align-items: flex-start;
         margin-left: -84vw;
-        margin-top: 29vh;
+        margin-top: 31vh;
     
         
 
@@ -254,7 +254,7 @@ button:before {
         height: 37px;
         font-size: 20px;
         position: absolute;
-        top: 95vh;
+        top: 98vh;
         left: 24vw;
         font-weight: bold;
     }
