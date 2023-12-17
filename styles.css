@@ -157,36 +157,31 @@ button:before {
 
 
 @media screen and (max-width:900px) {
-
-
-
     .title-header {
         font-size: 50px;
         margin-left: 70px;
+        
 
 
     }
-
 
     .minha-img {
         width: 321px;
         height: auto;
         position: relative;
-        bottom: 32vh;
+        bottom: 35vh;
         left: 3rem;
         border-radius: 190px;
-
-
-
+     
     }
 
     section {
-
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 0%;
         height: auto;
+       
 
     }
 
@@ -195,37 +190,35 @@ button:before {
         display: flex;
         flex-direction: row-reverse;
         align-items: flex-start;
-        margin-left: -77vw;
-        margin-top: 27vh;
+        margin-left: -84vw;
+        margin-top: 29vh;
+    
+        
 
     }
-
-
 
     h2 {
         font-size: 24px;
         position: relative;
         left: -20vw;
-        bottom: 23vh;
+        bottom: 25vh;
         letter-spacing: 1px;
         display: flex;
         flex-direction: row-reverse;
-
+       
 
     }
 
     #headermenu {
         display: flex;
-        gap: 12px;
+        gap: 8px;
         flex-direction: row;
         justify-content: center;
         position: relative;
         top: 5rem;
-
-
-
-
-
+        right: 17px;
+        
+     
 
     }
 
@@ -244,11 +237,8 @@ button:before {
         position: static;
         margin-top: 240px;
         width: 78px;
-
-
-
+        border: 1px solid red;
     }
-
 
     p {
         font-size: 18px;
@@ -257,10 +247,6 @@ button:before {
         margin-right: -63%;
         text-align: left;
 
-
-
-
-
     }
 
     button {
@@ -268,32 +254,9 @@ button:before {
         height: 37px;
         font-size: 20px;
         position: absolute;
-        top: 87vh;
+        top: 92vh;
         left: 24vw;
         font-weight: bold;
-
-
-
-
-
     }
-
-
-
-}
-
-@media screen and (max-width:400px) {
-
-    h1 {
-        margin-top: 61%;
-    }
-
-    h2 {
-        margin-top: 9%;
-    }
-
-
-   
-
 
 }
