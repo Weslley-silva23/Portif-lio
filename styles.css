@@ -220,7 +220,7 @@ button:before {
         justify-content: center;
         position: relative;
         top: 5rem;
-        right: 32px;
+        right: 22px;
         
 
 
@@ -262,7 +262,7 @@ button:before {
         height: 37px;
         font-size: 20px;
         position: absolute;
-        top: 100vh;
+        top: 102vh;
         left: 24vw;
         font-weight: bold;
 
