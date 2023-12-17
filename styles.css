@@ -169,7 +169,7 @@ button:before {
         width: 321px;
         height: auto;
         position: relative;
-        bottom: 35vh;
+        bottom: 37vh;
         left: 3rem;
         border-radius: 190px;
      
@@ -200,8 +200,8 @@ button:before {
     h2 {
         font-size: 24px;
         position: relative;
-        left: -20vw;
-        bottom: 25vh;
+        left: -23vw;
+        bottom: 27vh;
         letter-spacing: 1px;
         display: flex;
         flex-direction: row-reverse;
@@ -237,7 +237,7 @@ button:before {
         position: static;
         margin-top: 240px;
         width: 78px;
-        border: 1px solid red;
+        
     }
 
     p {
@@ -254,7 +254,7 @@ button:before {
         height: 37px;
         font-size: 20px;
         position: absolute;
-        top: 92vh;
+        top: 95vh;
         left: 24vw;
         font-weight: bold;
     }
