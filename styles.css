@@ -92,8 +92,8 @@ h2 {
     text-align: center;
     margin-bottom: 500px;
     margin-left: 185px;
-  
-  
+
+
 }
 
 p {
@@ -127,7 +127,7 @@ button {
     position: absolute;
     bottom: 100px;
     left: 50%;
-   
+
 
 
 
@@ -158,18 +158,25 @@ button:before {
 
 @media screen and (max-width:900px) {
 
+
+
     .title-header {
         font-size: 50px;
         margin-left: 70px;
+
+
     }
 
+
     .minha-img {
-        width: 400px;
-    height: 380px;
-    position: relative;
-    bottom: 34vh;
-    left: 0rem;
-    padding: 60px;
+        width: 321px;
+        height: auto;
+        position: relative;
+        bottom: 32vh;
+        left: 3rem;
+        border-radius: 190px;
+
+
 
     }
 
@@ -178,23 +185,32 @@ button:before {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width: 0%;
+        height: auto;
 
     }
 
     h1 {
-        font-size: 23px;
-        margin-left: 88%;
+        font-size: 21px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        margin-left: -77vw;
         margin-top: 27vh;
-    
+
     }
+
+
 
     h2 {
         font-size: 24px;
-        position: absolute;
-        left: -60vw;
-        top: 50vh;
+        position: relative;
+        left: -20vw;
+        bottom: 23vh;
         letter-spacing: 1px;
+        display: flex;
+        flex-direction: row-reverse;
+
 
     }
 
@@ -202,11 +218,14 @@ button:before {
         display: flex;
         gap: 12px;
         flex-direction: row;
-        margin-left: 0;
         justify-content: center;
         position: relative;
-        top: 85px;
-       
+        top: 5rem;
+
+
+
+
+
 
     }
 
@@ -226,6 +245,8 @@ button:before {
         margin-top: 240px;
         width: 78px;
 
+
+
     }
 
 
@@ -233,9 +254,12 @@ button:before {
         font-size: 18px;
         width: 354px;
         margin-top: 110px;
-        margin-right: 42%;
+        margin-right: -63%;
         text-align: left;
-    
+
+
+
+
 
     }
 
@@ -244,10 +268,12 @@ button:before {
         height: 37px;
         font-size: 20px;
         position: absolute;
-        bottom: 5vh;
-        left: 30vw;
+        top: 87vh;
+        left: 24vw;
         font-weight: bold;
-    
+
+
+
 
 
     }
@@ -255,6 +281,7 @@ button:before {
 
 
 }
+
 @media screen and (max-width:400px) {
 
     h1 {
@@ -266,9 +293,7 @@ button:before {
     }
 
 
-    button {
-        margin-bottom: -31px;
-    }
+   
 
 
 }
