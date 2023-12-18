@@ -173,7 +173,7 @@ button:before {
         width: 279px;
         height: auto;
         position: relative;
-        bottom: 36vh;
+        bottom: 39vh;
         left: 4rem;
         border-radius: 250px;
 
@@ -202,7 +202,7 @@ button:before {
         flex-direction: row-reverse;
         align-items: flex-start;
         margin-left: -94vw;
-        margin-top: 15vh;
+        margin-top: 16vh;
 
 
     }
@@ -211,7 +211,7 @@ button:before {
         font-size: 21px;
         position: relative;
         left: -28vw;
-        bottom: 32vh;
+        bottom: 35vh;
         letter-spacing: 1px;
         display: flex;
         flex-direction: row-reverse;
@@ -257,9 +257,9 @@ button:before {
     }
 
     p {
-        font-size: 18px;
+        font-size: 17px;
         width: 354px;
-        margin-top: -3vh;
+        margin-top: -5vh;
         margin-right: -57%;
         text-align: left;
 
@@ -272,7 +272,7 @@ button:before {
         height: 37px;
         font-size: 20px;
         position: absolute;
-        top: 73vh;
+        top: 79vh;
         left: 24vw;
         font-weight: bold;
 
