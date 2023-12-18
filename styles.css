@@ -158,21 +158,25 @@ button:before {
 
 @media screen and (max-width:900px) {
     .title-header {
-        font-size: 50px;
-        margin-left: 70px;
-
-
-
+        font-size: 40px;
+        margin-left: 90px;
 
     }
 
+
+    main {
+      
+    width: 93%;
+    }
+
     .minha-img {
-        width: 321px;
+        width: 279px;
         height: auto;
         position: relative;
-        bottom: 37vh;
-        left: 3rem;
-        border-radius: 190px;
+        bottom: 36vh;
+        left: 4rem;
+        border-radius: 250px;
+
 
 
     }
@@ -183,36 +187,36 @@ button:before {
         align-items: center;
         width: 0%;
         height: 0vh;
-        
 
 
-        
+
+
+
 
 
     }
 
     h1 {
-        font-size: 21px;
+        font-size: 19px;
         display: flex;
         flex-direction: row-reverse;
         align-items: flex-start;
-        margin-left: -90vw;
-        margin-top: 23vh;
-        
-
+        margin-left: -94vw;
+        margin-top: 15vh;
 
 
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 21px;
         position: relative;
-        left: -23vw;
-        bottom: 27vh;
+        left: -28vw;
+        bottom: 32vh;
         letter-spacing: 1px;
         display: flex;
         flex-direction: row-reverse;
-        
+
+
 
     }
 
@@ -222,9 +226,10 @@ button:before {
         flex-direction: row;
         justify-content: center;
         position: relative;
-        top: 3rem;
-        right: 22px;
-        
+        top: 0rem;
+        right: 14px;
+
+
 
 
 
@@ -246,16 +251,18 @@ button:before {
         margin-top: 240px;
         width: 78px;
         z-index: 100;
-       
+
+
 
     }
 
     p {
         font-size: 18px;
         width: 354px;
-        margin-top: 80px;
+        margin-top: -3vh;
         margin-right: -57%;
         text-align: left;
+
 
 
     }
@@ -265,9 +272,10 @@ button:before {
         height: 37px;
         font-size: 20px;
         position: absolute;
-        top: 84vh;
+        top: 73vh;
         left: 24vw;
         font-weight: bold;
+
 
     }
 
