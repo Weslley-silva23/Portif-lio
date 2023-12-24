@@ -13,10 +13,12 @@ body {
 
 header {
 
-    word-spacing: 90px;
+    word-spacing: 50px;
     text-align: center;
     letter-spacing: 1px;
     display: inline-block;
+    
+
 }
 
 .title-header {
@@ -24,101 +26,114 @@ header {
     font-weight: bolder;
     color: darkturquoise;
     word-spacing: 100px;
-    font-size: 55px;
+    font-size: 45px;
     margin-left: 30px;
     display: inline-block;
     margin-top: 20px;
     cursor: pointer;
+
+
 }
 
 .link-header1,
 .link-header2,
 .link-header3,
 .link-header4 {
-    font-size: 28px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     word-spacing: 90px;
     text-align: center;
     color: white;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 50px;
     display: inline-block;
     cursor: pointer;
     position: relative;
-    left: 150px;
+    left: 120px;
     text-decoration: none;
+    
+
+
 
 }
 
 img {
-    height: 40vw;
+    height: 37vw;
     border-radius: 110px;
     opacity: 0.7;
     padding: 55px;
     display: inline-block;
+    margin-bottom: 30px;
+ 
+
+
 }
 
 section {
-    display: inline-block;
-    margin-left: 90px;
-    margin-top: -90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    height: 100%;
 }
 
 h1 {
     color: darkturquoise;
     font-weight: 800;
-    font-size: 60px;
+    font-size: 38px;
     word-spacing: 10px;
     text-transform: capitalize;
     text-decoration: underline;
-    width: 940px;
     line-height: 122px;
-    height: 280px;
     position: absolute;
-    top: 170px;
+    top: 120px;
+  
+
 }
 
 h2 {
 
     color: white;
     font-weight: 700;
-    font-size: 50px;
-    word-spacing: 10px;
+    font-size: 36px;
     text-transform: capitalize;
     text-decoration: underline;
-    width: 530px;
-    line-height: 122px;
     text-align: center;
-    margin-bottom: 500px;
-    margin-left: 185px;
+    margin-left: 25px;
+    margin-top: -120vh;
+    
+
 
 
 }
 
 p {
-    width: 995px;
+    width: 695px;
     font-size: 25px;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     word-spacing: 10px;
     text-transform: capitalize;
     font-weight: bold;
     letter-spacing: 1px;
     position: absolute;
-    top: 475px;
+    top: 325px;
+    text-align: center;
+   
 }
+
 
 button {
 
     border-radius: 50px;
     border: none;
     cursor: pointer;
-    Width: 345px;
-    height: 75px;
+    Width: 270px;
+    height: 45px;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 20px;
     background-color: chartreuse;
     color: black;
     line-height: 34.13px;
@@ -126,7 +141,7 @@ button {
     letter-spacing: 1px;
     position: absolute;
     bottom: 100px;
-    left: 50%;
+    left: 48%;
 
 
 
@@ -159,26 +174,24 @@ button:before {
 @media screen and (max-width:900px) {
     .title-header {
         font-size: 40px;
-        margin-left: 90px;
+        margin-left: 60px;
+       
 
     }
 
 
     main {
-      
-    width: 93%;
+        width: 93%; 
     }
 
     .minha-img {
         width: 279px;
         height: auto;
         position: relative;
-        bottom: 39vh;
-        left: 4rem;
+        bottom: 35vh;
+        left: 3rem;
         border-radius: 250px;
-
-
-
+        font-size: 17px;
     }
 
     section {
@@ -187,37 +200,26 @@ button:before {
         align-items: center;
         width: 0%;
         height: 0vh;
-
-
-
-
-
-
-
     }
 
     h1 {
-        font-size: 19px;
+        font-size: 21px;
         display: flex;
         flex-direction: row-reverse;
-        align-items: flex-start;
-        margin-left: -94vw;
-        margin-top: 16vh;
-
+        margin-left: -25vw;
+        margin-top: 24vh;
 
     }
 
     h2 {
-        font-size: 21px;
+        font-size: 22px;
         position: relative;
-        left: -28vw;
-        bottom: 35vh;
+        left: -16vw;
+        top: 30vh;
         letter-spacing: 1px;
         display: flex;
         flex-direction: row-reverse;
-
-
-
+        width: 264px;
     }
 
     #headermenu {
@@ -226,13 +228,8 @@ button:before {
         flex-direction: row;
         justify-content: center;
         position: relative;
-        top: 0rem;
-        right: 14px;
-
-
-
-
-
+        top: 1rem;
+        right: 10px;
     }
 
     .link-header1,
@@ -251,32 +248,24 @@ button:before {
         margin-top: 240px;
         width: 78px;
         z-index: 100;
-
-
-
     }
 
     p {
-        font-size: 17px;
+        font-size: 13px;
         width: 354px;
-        margin-top: -5vh;
-        margin-right: -57%;
-        text-align: left;
-
-
-
+        margin-top: 19vh;
+        margin-right: 25%;
+        text-align: center;
     }
 
     button {
         width: 225px;
-        height: 37px;
+        height: 34px;
         font-size: 20px;
         position: absolute;
-        top: 79vh;
-        left: 24vw;
+        top: 76vh;
+        left: 20vw;
         font-weight: bold;
-
-
     }
 
 }
