@@ -204,15 +204,15 @@ button:before {
 
     h1 {
         font-size: 21px;
-        margin-left: -30vw;
-        margin-top: 25vh;
+        margin-left: -35vw;
+        margin-top: 28vh;
     }
 
     h2 {
         font-size: 22px;
         position: relative;
         left: -16vw;
-        top: 29vh;
+        top: 26vh;
         letter-spacing: 1px;
         width: 264px;
        
