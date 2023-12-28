@@ -17,7 +17,7 @@ header {
     text-align: center;
     letter-spacing: 1px;
     display: inline-block;
-    
+
 
 }
 
@@ -52,7 +52,7 @@ header {
     position: relative;
     left: 120px;
     text-decoration: none;
-    
+
 
 
 
@@ -65,7 +65,7 @@ img {
     padding: 55px;
     display: inline-block;
     margin-bottom: 30px;
- 
+
 
 
 }
@@ -88,7 +88,7 @@ h1 {
     line-height: 122px;
     position: absolute;
     top: 120px;
-  
+
 
 }
 
@@ -102,7 +102,7 @@ h2 {
     text-align: center;
     margin-left: 25px;
     margin-top: -120vh;
-    
+
 
 
 
@@ -121,7 +121,7 @@ p {
     position: absolute;
     top: 325px;
     text-align: center;
-   
+
 }
 
 
@@ -179,8 +179,9 @@ button:before {
 
 
     main {
-        width: 100%;}
-        
+        width: 100%;
+    }
+
 
     .minha-img {
         width: 279px;
@@ -190,7 +191,7 @@ button:before {
         left: 3rem;
         border-radius: 250px;
         font-size: 17px;
-     
+
     }
 
     section {
@@ -199,7 +200,7 @@ button:before {
         align-items: center;
         width: 0%;
         height: 0vh;
-        
+
     }
 
     h1 {
@@ -215,7 +216,7 @@ button:before {
         top: 26vh;
         letter-spacing: 1px;
         width: 264px;
-       
+
     }
 
     #headermenu {
@@ -225,9 +226,9 @@ button:before {
         justify-content: center;
         position: relative;
         top: 2rem;
-        right:8px;
-     
-        
+        right: 8px;
+
+
     }
 
     .link-header1,
@@ -246,7 +247,7 @@ button:before {
         margin-top: 240px;
         width: 78px;
         z-index: 100;
-       
+
     }
 
     p {
@@ -255,7 +256,7 @@ button:before {
         margin-top: 19vh;
         margin-right: 25%;
         text-align: center;
-      
+
     }
 
     button {
@@ -266,7 +267,150 @@ button:before {
         top: 78vh;
         left: 20vw;
         font-weight: bold;
-        
+
     }
 
 }
+
+@media screen and (max-width:800px) {
+
+
+    .minha-img {
+        position: relative;
+        bottom: 40vh;
+    }
+
+
+    #headermenu {
+        margin-right: 50vw;
+
+    }
+
+    h1 {
+        font-size: 19px;
+        margin-left: -18vw;
+        margin-top: 34vh;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-left: 10vw;
+        margin-bottom: 5vh;
+    }
+
+    p {
+        margin-top: 23vh;
+    }
+
+    button {
+        margin-top: 9vh;
+        margin-left: -13vh;
+    }
+
+}
+@media screen and (max-width:600px){
+
+    #headermenu{
+        margin-left: 15vw;
+    }
+p {
+    margin-left: 8vw;
+}
+button {
+    margin-left: -4vw;
+}
+
+}
+
+@media screen and (max-width:500px) {
+    #headermenu{
+        margin-left: 35vw;
+
+    }
+
+}
+
+@media screen and (max-width:440px) {
+    #headermenu{
+        margin-left: 45vw;
+
+    }
+
+}
+@media screen and (max-width:400px) {
+
+
+    .minha-img{
+        margin-left: 5vw
+    }
+
+    #headermenu{
+        margin-left: 55vw;
+
+    }
+
+    button {
+        margin-left: 8vw;
+    }
+
+}
+
+@media screen and (max-width:384px){
+
+    h1 {
+        font-size: 17px;
+        overflow: hidden;
+        
+    }
+    h2 {
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width:375px){
+
+    h1 {
+        font-size: 16px;
+        overflow: hidden;
+        position: fixed;
+        
+    }
+    h2 {
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width:335px){
+
+    h1 {
+        font-size: 16px;
+        overflow: hidden;
+        position: fixed;
+        
+    }
+    h2 {
+        font-size: 16px;
+    }
+
+    #headermenu{
+        margin-left: 68vw;
+    }
+
+    button {
+        margin-left: 10vw;
+    }
+
+   
+}
+
+@media screen and (max-width:300px) {
+    #headermenu{
+        margin-left: 73vw;
+    }
+
+    button {
+        margin-left: 20vw;
+    }
+    
+}
+
