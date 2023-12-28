@@ -358,39 +358,39 @@ button {
 @media screen and (max-width:384px){
 
     h1 {
-        font-size: 17px;
+        font-size: 15px;
         overflow: hidden;
         position: fixed;
         
     }
     h2 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
 }
 @media screen and (max-width:375px){
 
     h1 {
-        font-size: 16px;
+        font-size: 15px;
         overflow: hidden;
         position: fixed;
         
     }
     h2 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
 }
 @media screen and (max-width:335px){
 
     h1 {
-        font-size: 16px;
+        font-size: 15px;
         overflow: hidden;
         position: fixed;
         
     }
     h2 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     #headermenu{
