@@ -360,6 +360,7 @@ button {
     h1 {
         font-size: 17px;
         overflow: hidden;
+        position: fixed;
         
     }
     h2 {
